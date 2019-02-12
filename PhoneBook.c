@@ -110,7 +110,7 @@ int main(){
             strcpy(newContact -> name, nameToBeAdded);
             newContact -> number = numberToBeAdded;
             add(lista, newContact);
-            printLL(lista);
+
         }
 
         else if (option == 2){
